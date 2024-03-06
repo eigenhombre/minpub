@@ -6,9 +6,13 @@ A Babashka script to generate a "minimum" EPUB eBook.
 
 I had the need to generate an EPUB eBook from a large, structured
 Markdown file. I didn't want to use a larger tool like Pandoc or
-Calibre for this.  It was a little tricky to generate an EPUB
+Calibre for this.  It was a little tricky to generate a minimal EPUB
 that would open in both Calibre and Apple Books, so I wrote this
 and am posting it here in case it's helpful to someone else.
+
+The script `minpub.clj` generates an eBook based on a hard-coded,
+short list of example chapters.  It's meant to serve as an example
+rather than to be a general-purpose tool.
 
 ## Requirements
 
