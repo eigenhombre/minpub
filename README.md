@@ -14,6 +14,14 @@ The script `minpub.clj` generates an eBook based on a hard-coded,
 short list of example chapters.  It's meant to serve as an example
 rather than to be a general-purpose tool.
 
+## Goals
+
+- Fast (< 1 sec)
+- Table of Contents with working cross-links
+- Cover image
+- Multiple chapters
+- Openable in both Calibre and Apple Books
+
 ## Requirements
 
 - [Babashka](https://github.com/babashka/babashka)
